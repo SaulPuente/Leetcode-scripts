@@ -11,13 +11,9 @@ class Solution:
             result[nRow] = result[nRow] + s[i]        # store characters
             if reverse is False:
                 nRow += 1
-                
-                
-                
             else:
                 nRow -= 1
             # change direction
             if (nRow == numRows - 1 or nRow == 0):
                 reverse = not reverse
         return ''.join(result)      # join the characters
-    
