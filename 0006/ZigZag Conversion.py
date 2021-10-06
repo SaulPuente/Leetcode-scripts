@@ -20,6 +20,5 @@ class Solution:
             # change direction
             if (nRow == numRows - 1 or nRow == 0):
                 reverse = not reverse
-
         # join the characters
         return ''.join(result)
